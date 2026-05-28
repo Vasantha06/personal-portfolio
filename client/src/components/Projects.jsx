@@ -64,7 +64,11 @@ export default function Projects() {
   const { projects, loading, error } = useProjects();
 
   // use real data from MongoDB, fall back to demo if empty
-  const displayProjects = projects.length > 0 ? projects : demoProjects;
+  const displayProjects = (!loading && projects.length === 0) || error 
+  ? demoProjects 
+  : projects.length > 0 
+  ? projects 
+  : demoProjects;
 
   return (
     <section id="projects" className="py-24 px-6 bg-gray-50 dark:bg-dark transition-colors duration-300">
