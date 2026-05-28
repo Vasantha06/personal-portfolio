@@ -13,7 +13,7 @@ app.use(cors({
     origin: [
         'http://localhost:5173',
         'http://localhost:5174',
-        'https://personal-portfolio-iota-swart-99.vercel.app',
+        'https://personal-portfolio-iota-swart-99.vercel.app/',
     ],
     methods: ['GET', 'POST'],
  })); // your React dev URL
