@@ -54,8 +54,8 @@ const demoProjects = [
     title: 'Portfolio Website',
     description: 'Personal portfolio built with MERN stack. Features contact form, project showcase, and dark mode.',
     techStack: ['HTML5','CSS3','Javascript','React','TailwindCSS','Redux','Nodejs', 'Express', 'MongoDB', 'JWT','Framer Motion'],
-    githubUrl: 'https://github.com',
-    liveUrl:   'https://example.com',
+    githubUrl: 'https://github.com/Vasantha06/personal-portfolio.git',
+    liveUrl:   'https://personal-portfolio-iota-swart-99.vercel.app/',
     imageUrl: '/images/image-6.png',
   },
 ];
