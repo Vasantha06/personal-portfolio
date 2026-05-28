@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+/* Tell Tailwind v4 to use class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+/* Custom colors — defined here in v4, not in tailwind.config.js */
+@theme {
+  --color-primary: #6C63FF;
+  --color-dark:    #0F0F0F;
+  --color-card:    #1A1A2E;
+  --font-sans:     'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0F0F0F;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0F0F0F; }
+::-webkit-scrollbar-thumb { background: #6C63FF; border-radius: 10px; }
