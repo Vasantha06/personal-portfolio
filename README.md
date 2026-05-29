@@ -17,7 +17,7 @@ A full stack personal portfolio website built with the MERN stack (MongoDB, Expr
 - 🌙 Dark / Light mode toggle
 - 🎨 Smooth animations with Framer Motion
 - 📱 Fully responsive — mobile, tablet, desktop
-- 📬 Working contact form — saves to MongoDB + sends email
+- 📬 Working contact form — saves to MongoDB + sends email via EmailJS
 - 🗂️ Projects dynamically fetched from MongoDB REST API
 - ⌨️ Typewriter animation on Hero section
 - 📄 Resume download button
@@ -44,7 +44,7 @@ A full stack personal portfolio website built with the MERN stack (MongoDB, Expr
 | Express.js | Web framework |
 | MongoDB Atlas | Cloud database |
 | Mongoose | ODM for MongoDB |
-| Nodemailer | Send emails from contact form |
+| EmailJS | Send emails from contact form |
 | CORS | Cross-origin request handling |
 | dotenv | Environment variable management |
 
