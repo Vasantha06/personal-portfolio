@@ -8,9 +8,6 @@ connectDB();
 
 const app = express();
 
-// Fix preflight
-app.options('*', cors());
-
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -19,6 +16,7 @@ app.use(express.json());
 app.use('/api/projects', require('./routes/projects'));
 app.use('/api/contact',  require('./routes/contact'));
 
+// Health check
 app.get('/', (req, res) => res.send('Portfolio API is running ✅'));
 
 const PORT = process.env.PORT || 5000;
