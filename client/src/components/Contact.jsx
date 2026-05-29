@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import axios from '../api/axios';
 
 // ← Replace these with your actual IDs
-const SERVICE_ID  = 'service_9pzqhhf';
+const SERVICE_ID  = 'service_726dhhq';
 const TEMPLATE_ID = 'template_5d6nge9';
 const PUBLIC_KEY  = '1tplrpzw9EJGQfqRG';
 
