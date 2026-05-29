@@ -21,8 +21,7 @@ export default function Contact() {
       setStatus('error');
     }
   };
-
-  return (
+   return (
     <section id="contact" className="py-24 px-6 bg-white dark:bg-card/30 transition-colors duration-300 justify-items-center">
       <div className="max-w-2xl mx-auto ">
 
