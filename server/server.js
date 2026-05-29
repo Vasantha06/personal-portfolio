@@ -20,4 +20,7 @@ app.use('/api/contact',  require('./routes/contact'));
 app.get('/', (req, res) => res.send('Portfolio API is running ✅'));
 
 const PORT = process.env.PORT || 5000;
+setInterval(() => {
+  console.log('Server keep alive ping');
+}, 1000 * 60 * 14);
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
